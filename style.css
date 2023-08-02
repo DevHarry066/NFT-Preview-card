@@ -1,0 +1,120 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main {
+    margin: 50px;
+    padding: 8px;
+    padding-top: 0px;
+    border-radius: 2%;
+    background-color: hsl(216, 50%, 16%);
+    display: inline;
+    max-width: 250px;
+}
+.values {
+    padding: 10px;
+    padding-top: 0;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+.nft {
+    border-radius: 2%;
+    width: 230px;
+    height: 230px;
+}
+.title {
+    color:hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.content {
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(215, 43%, 54%);
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+}
+.ethimage, .clockimage{
+    width: 14px;
+    height: 14px;
+    padding-right: 3px;
+}
+.daysleft {
+    color: hsl(215, 51%, 70%);
+    font-size: 15x;
+}
+.user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+}
+ .creation {
+     padding-right: 5px;
+    color: hsl(215, 51%, 70%);
+ }
+ .name {
+    color: hsl(0, 13%, 88%);
+    font-weight: 400;
+ }
+ .profile {
+     width: 25px;
+     border-radius: 50%;
+     margin-right: 10px;
+     margin-top: 8px;
+     height: 25px;
+     border: 2px solid white;
+ }
+.title:hover {
+    color:hsl(178, 100%, 50%);
+}
+.name:hover {
+    color:hsl(178, 100%, 50%);
+}
+ .image {
+    position: relative;
+    max-width: 100%;
+  }
+  .image img.Sirv.view {
+    position: absolute;
+    top: 100;
+    right: 100;
+    left: 100;
+    bottom: 100;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .image:hover img.Sirv.view {
+    opacity: 1; 
+  }
+  .image:hover img.Sirv.nft {
+    opacity: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image:hover {
+      background-color: rgb(109, 186, 238);
+        width: 230px;
+        height: 230px;
+        margin-left: 10px;
+        border-radius: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
